@@ -9,4 +9,4 @@ class Auto(Voertuig):
         if self.brandstof <= 0:
             return f"{self.naam} staat stil (geen brandstof)"
         self.brandstof -= 1
-        return f"{self.naam} rijdt aan {self.snelheid} km/u"
+        return f"{self.naam} rijdt aan {self.snelheid} km/u en heeft {self.brandstof}"
